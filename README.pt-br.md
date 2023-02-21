@@ -45,5 +45,5 @@ Para conseguir criar uma página JSP que tivesse os usuários cadastrados, quand
 Para executar este projeto, clone o repositório e importe-o no seu ambiente de desenvolvimento Java preferido.
 Certifique-se de ter o Java Development Kit (JDK) versão 17 ou superior instalado na sua máquina.
 
-Será necessário também configurar um servidor de aplicação Java, como o Apache Tomcat, para executar o projeto.
+Será necessário também configurar um servidor de aplicação como o Apache Tomcat para executar o projeto.
 
