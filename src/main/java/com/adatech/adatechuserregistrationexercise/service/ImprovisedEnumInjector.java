@@ -1,4 +1,4 @@
-package com.adatech.adatechuserregistrationexercise;
+package com.adatech.adatechuserregistrationexercise.service;
 
 import com.adatech.adatechuserregistrationexercise.service.UserService;
 import lombok.AllArgsConstructor;

@@ -2,7 +2,7 @@ package com.adatech.adatechuserregistrationexercise.controller;
 
 import java.io.*;
 
-import com.adatech.adatechuserregistrationexercise.ImprovisedEnumInjector;
+import com.adatech.adatechuserregistrationexercise.service.ImprovisedEnumInjector;
 import com.adatech.adatechuserregistrationexercise.service.UserService;
 
 import jakarta.servlet.ServletException;

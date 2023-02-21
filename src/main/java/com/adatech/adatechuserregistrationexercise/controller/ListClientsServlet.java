@@ -1,6 +1,6 @@
 package com.adatech.adatechuserregistrationexercise.controller;
 
-import com.adatech.adatechuserregistrationexercise.ImprovisedEnumInjector;
+import com.adatech.adatechuserregistrationexercise.service.ImprovisedEnumInjector;
 import com.adatech.adatechuserregistrationexercise.service.UserService;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
