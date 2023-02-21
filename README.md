@@ -44,4 +44,4 @@ To create a JSP page that had the registered users, when requested by the ListCl
 To run this project, clone the repository and import it into your preferred Java development environment.
 Make sure you have Java Development Kit (JDK) version 17 or higher installed on your machine.
 
-You will also need to set up a Java application server, such as Apache Tomcat, to run the project.
+You will also need to set up an application server, such as Apache Tomcat, to run the project.
