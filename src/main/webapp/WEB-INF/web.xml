@@ -9,7 +9,31 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>registrationFormServlet</servlet-name>
-        <servlet-class>com.adatech.adatechuserregistrationexercise.RegistrationFormServlet</servlet-class>
+        <servlet-class>com.adatech.adatechuserregistrationexercise.controller.RegistrationFormServlet</servlet-class>
+        <init-param>
+            <param-name>jspDirectory</param-name>
+            <param-value>/WEB-INF/jsp/</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainMenuServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>MainMenuServlet</servlet-name>
+        <servlet-class>com.adatech.adatechuserregistrationexercise.controller.MainMenuServlet</servlet-class>
+        <init-param>
+            <param-name>jspDirectory</param-name>
+            <param-value>/WEB-INF/jsp/</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListClientsServlet</servlet-name>
+        <url-pattern>/list-registered-clients</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ListClientsServlet</servlet-name>
+        <servlet-class>com.adatech.adatechuserregistrationexercise.controller.ListClientsServlet</servlet-class>
         <init-param>
             <param-name>jspDirectory</param-name>
             <param-value>/WEB-INF/jsp/</param-value>
