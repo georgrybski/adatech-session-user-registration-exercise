@@ -38,7 +38,7 @@ Ao selecionar a opção de visualizar todos os clientes, o usuário é redirecio
 
 Os clientes são armazenados em memória, usando uma lista de objetos do tipo `Client` dentro da classe `InMemoryDatabase`. 
 
-Para conseguir criar uma página JSP que tivesse os usuários cadastrados, quando requisitado pelo ListClientsServerlet, o UserService contrói o cógido HTMl com as tags necessárias para estilização baseando-se na lista de clientes presente na `InMemoryDatabase`.
+Para conseguir criar uma página JSP que tivesse os usuários cadastrados, quando requisitado pelo ListClientsServerlet, o UserService contrói o cógido HTML com as tags necessárias para estilização baseando-se na lista de clientes presente na `InMemoryDatabase`.
 
 ## Executando o código
 
