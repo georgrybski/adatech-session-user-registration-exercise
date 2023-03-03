@@ -35,9 +35,9 @@ When selecting the option to view all customers, the user is redirected to the l
   <img src="images/list-all-clients.png" alt="All customers view menu">
 </p>
 
-Customers are stored in memory using a list of objects of type `Client` inside the `InMemoryDatabase` class.
+Customers are stored and retrieved based on a per session basis.
 
-To create a JSP page that had the registered users, when requested by the ListClientsServerlet, the UserService builds the HTML code with the necessary tags for styling based on the list of clients present in the `InMemoryDatabase`.
+To create a JSP page that had the registered users, when requested by the ListClientsServerlet, the UserService builds the HTML code with the necessary tags for styling based on the list of clients present in the current session.
 
 ## Running the Code
 
