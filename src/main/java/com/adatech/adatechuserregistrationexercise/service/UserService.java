@@ -2,20 +2,22 @@ package com.adatech.adatechuserregistrationexercise.service;
 
 
 import com.adatech.adatechuserregistrationexercise.model.Client;
-import com.adatech.adatechuserregistrationexercise.repository.InMemoryDatabase;
 
 import java.util.List;
 
 
 public class UserService {
 
-    private InMemoryDatabase inMemoryDatabase = new InMemoryDatabase();
-
-    public String getAllClientsHtmlContent() {
-        return createHtmlContent(inMemoryDatabase.getClients());
+    public String getAllClientsHtmlContent(List<Client> clients) {
+        return !clients.isEmpty()? createHtmlContent(clients) :
+                "  <div class=\"card\">" +
+                "     <div class=\"center\">" +
+                "        <span class=\"bold\"><h2>Nenhum cliente registrado</h2></span>" +
+                "     </div>" +
+                "  </div>";
     }
 
-    private String createHtmlContent(List<Client> clients) {
+    public String createHtmlContent(List<Client> clients) {
         String[] content = new String[] {
                 ""
         };
@@ -35,8 +37,4 @@ public class UserService {
             });
             return content[0];
         }
-
-    public void addClient(String name, String cpf) {
-        inMemoryDatabase.addClient(new Client(name, cpf));
-    }
 }
